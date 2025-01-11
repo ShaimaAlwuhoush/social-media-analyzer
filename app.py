@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Initialize pipelines
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="t5-small")
 sentiment_analyzer = pipeline("sentiment-analysis")
 
 # Streamlit app interface
